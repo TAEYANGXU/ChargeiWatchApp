@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63F0E55B-2E4E-4FD2-AFC4-4445B3B47B17"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChargeWatchApp Watch App/LocalNotifications.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "register()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5 - dcc888ac1a8846c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ChargeWatchApp_Watch_App.LocalNotifications.register() async throws -&gt; ()"
+                  moduleName = "ChargeWatchApp Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuyanzhang/Desktop/ChargeWatchApp/ChargeWatchApp%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5 - f5104695f6d67f21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for ChargeWatchApp_Watch_App.LocalNotifications.register() async throws -&gt; ()"
+                  moduleName = "ChargeWatchApp Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuyanzhang/Desktop/ChargeWatchApp/ChargeWatchApp%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5 - fc38593d64bd0af4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ChargeWatchApp_Watch_App.LocalNotifications.register() async throws -&gt; ()"
+                  moduleName = "ChargeWatchApp Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuyanzhang/Desktop/ChargeWatchApp/ChargeWatchApp%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5 - fc38593d64bd0acb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ChargeWatchApp_Watch_App.LocalNotifications.register() async throws -&gt; ()"
+                  moduleName = "ChargeWatchApp Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuyanzhang/Desktop/ChargeWatchApp/ChargeWatchApp%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5 - 83e001fadd48a8f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ChargeWatchApp_Watch_App.LocalNotifications.register() async throws -&gt; ()"
+                  moduleName = "ChargeWatchApp Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuyanzhang/Desktop/ChargeWatchApp/ChargeWatchApp%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5 - 83e001fadd48a8c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ChargeWatchApp_Watch_App.LocalNotifications.register() async throws -&gt; ()"
+                  moduleName = "ChargeWatchApp Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuyanzhang/Desktop/ChargeWatchApp/ChargeWatchApp%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  uuid = "23CDBF50-82F2-41ED-90F2-12F9C5FA9EF5 - 83e001fadd48a8c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ChargeWatchApp_Watch_App.LocalNotifications.register() async throws -&gt; ()"
+                  moduleName = "ChargeWatchApp Watch App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xuyanzhang/Desktop/ChargeWatchApp/ChargeWatchApp%20Watch%20App/LocalNotifications.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F33F31A8-ADD9-463C-A90B-7A08ADC5072C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChargeWatchApp Watch App/LocalNotifications.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "schedule()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27954CA3-443B-4CBC-8410-114D057CC556"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChargeWatchApp Watch App/LocalNotifications.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "userNotificationCenter(_:willPresent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

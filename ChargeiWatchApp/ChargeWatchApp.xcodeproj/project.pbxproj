@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7112C32BA165D4008DD4A8 /* ChargeWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B7112C22BA165D4008DD4A8 /* ChargeWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B7112C82BA165D4008DD4A8 /* ChargeWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7112C72BA165D4008DD4A8 /* ChargeWatchAppApp.swift */; };
+		1B7112CA2BA165D4008DD4A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7112C92BA165D4008DD4A8 /* ContentView.swift */; };
+		1B7112CC2BA165D7008DD4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7112CB2BA165D7008DD4A8 /* Assets.xcassets */; };
+		1B7112CF2BA165D7008DD4A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7112CE2BA165D7008DD4A8 /* Preview Assets.xcassets */; };
+		1B7112D92BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7112D82BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppTests.swift */; };
+		1B7112E32BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7112E22BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITests.swift */; };
+		1B7112E52BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7112E42BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITestsLaunchTests.swift */; };
+		1B7113002BA168F1008DD4A8 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7112FF2BA168F1008DD4A8 /* Landmark.swift */; };
+		1B7113032BA16912008DD4A8 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B7113012BA16912008DD4A8 /* hikeData.json */; };
+		1B7113042BA16912008DD4A8 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B7113022BA16912008DD4A8 /* landmarkData.json */; };
+		1B7113062BA16922008DD4A8 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7113052BA16922008DD4A8 /* ModelData.swift */; };
+		1B7113082BA1693C008DD4A8 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7113072BA1693C008DD4A8 /* Hike.swift */; };
+		1B71130A2BA16A83008DD4A8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7113092BA16A83008DD4A8 /* NotificationController.swift */; };
+		1B71130C2BA16AA3008DD4A8 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B71130B2BA16AA3008DD4A8 /* NotificationView.swift */; };
+		1B71130F2BA17DFA008DD4A8 /* LandmarkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B71130E2BA17DFA008DD4A8 /* LandmarkListView.swift */; };
+		1B7113112BA193C6008DD4A8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7113102BA193C5008DD4A8 /* ExtensionDelegate.swift */; };
+		1B7113132BA19447008DD4A8 /* LocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7113122BA19447008DD4A8 /* LocalNotifications.swift */; };
+		1BD749312BA2A4FD00770E81 /* HandyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD749302BA2A4FD00770E81 /* HandyJSON */; };
+		1BD749342BA2A51400770E81 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD749332BA2A51400770E81 /* SDWebImageSwiftUI */; };
+		1BD749372BA2A52700770E81 /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD749362BA2A52700770E81 /* ActivityIndicatorView */; };
+		1BD7493D2BA2B72200770E81 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1BD7493C2BA2B72200770E81 /* Alamofire */; };
+		1BD749422BA2DF7700770E81 /* LandmarkListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD749412BA2DF7700770E81 /* LandmarkListRow.swift */; };
+		1BD749442BA2E11700770E81 /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD749432BA2E11700770E81 /* LandmarkDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B7112C42BA165D4008DD4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7112B62BA165D3008DD4A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7112C12BA165D4008DD4A8;
+			remoteInfo = "ChargeWatchApp Watch App";
+		};
+		1B7112D52BA165D8008DD4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7112B62BA165D3008DD4A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7112C12BA165D4008DD4A8;
+			remoteInfo = "ChargeWatchApp Watch App";
+		};
+		1B7112DF2BA165D8008DD4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B7112B62BA165D3008DD4A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7112C12BA165D4008DD4A8;
+			remoteInfo = "ChargeWatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B7112EB2BA165D8008DD4A8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B7112C32BA165D4008DD4A8 /* ChargeWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B7112BC2BA165D4008DD4A8 /* ChargeWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChargeWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7112C22BA165D4008DD4A8 /* ChargeWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChargeWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7112C72BA165D4008DD4A8 /* ChargeWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeWatchAppApp.swift; sourceTree = "<group>"; };
+		1B7112C92BA165D4008DD4A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B7112CB2BA165D7008DD4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B7112CE2BA165D7008DD4A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B7112D42BA165D8008DD4A8 /* ChargeWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChargeWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7112D82BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeWatchApp_Watch_AppTests.swift; sourceTree = "<group>"; };
+		1B7112DE2BA165D8008DD4A8 /* ChargeWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChargeWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7112E22BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeWatchApp_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		1B7112E42BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeWatchApp_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B7112FF2BA168F1008DD4A8 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		1B7113012BA16912008DD4A8 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		1B7113022BA16912008DD4A8 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		1B7113052BA16922008DD4A8 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		1B7113072BA1693C008DD4A8 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		1B7113092BA16A83008DD4A8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1B71130B2BA16AA3008DD4A8 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		1B71130D2BA16B5E008DD4A8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1B71130E2BA17DFA008DD4A8 /* LandmarkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkListView.swift; sourceTree = "<group>"; };
+		1B7113102BA193C5008DD4A8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1B7113122BA19447008DD4A8 /* LocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotifications.swift; sourceTree = "<group>"; };
+		1BD749412BA2DF7700770E81 /* LandmarkListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkListRow.swift; sourceTree = "<group>"; };
+		1BD749432BA2E11700770E81 /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7112BF2BA165D4008DD4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD749342BA2A51400770E81 /* SDWebImageSwiftUI in Frameworks */,
+				1BD7493D2BA2B72200770E81 /* Alamofire in Frameworks */,
+				1BD749372BA2A52700770E81 /* ActivityIndicatorView in Frameworks */,
+				1BD749312BA2A4FD00770E81 /* HandyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7112D12BA165D8008DD4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7112DB2BA165D8008DD4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7112B52BA165D3008DD4A8 = {
+			isa = PBXGroup;
+			children = (
+				1B7112C62BA165D4008DD4A8 /* ChargeWatchApp Watch App */,
+				1B7112D72BA165D8008DD4A8 /* ChargeWatchApp Watch AppTests */,
+				1B7112E12BA165D8008DD4A8 /* ChargeWatchApp Watch AppUITests */,
+				1B7112BD2BA165D4008DD4A8 /* Products */,
+				1BD749292BA29D2E00770E81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B7112BD2BA165D4008DD4A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7112BC2BA165D4008DD4A8 /* ChargeWatchApp.app */,
+				1B7112C22BA165D4008DD4A8 /* ChargeWatchApp Watch App.app */,
+				1B7112D42BA165D8008DD4A8 /* ChargeWatchApp Watch AppTests.xctest */,
+				1B7112DE2BA165D8008DD4A8 /* ChargeWatchApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B7112C62BA165D4008DD4A8 /* ChargeWatchApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				1B7112FE2BA168CC008DD4A8 /* Resources */,
+				1B7112FD2BA168C2008DD4A8 /* Views */,
+				1B7112FC2BA168B6008DD4A8 /* Model */,
+				1B7112C72BA165D4008DD4A8 /* ChargeWatchAppApp.swift */,
+				1B7112C92BA165D4008DD4A8 /* ContentView.swift */,
+				1B7112CB2BA165D7008DD4A8 /* Assets.xcassets */,
+				1B7112CD2BA165D7008DD4A8 /* Preview Content */,
+				1B7113092BA16A83008DD4A8 /* NotificationController.swift */,
+				1B71130B2BA16AA3008DD4A8 /* NotificationView.swift */,
+				1B71130D2BA16B5E008DD4A8 /* PushNotificationPayload.apns */,
+				1B7113102BA193C5008DD4A8 /* ExtensionDelegate.swift */,
+				1B7113122BA19447008DD4A8 /* LocalNotifications.swift */,
+			);
+			path = "ChargeWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		1B7112CD2BA165D7008DD4A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B7112CE2BA165D7008DD4A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B7112D72BA165D8008DD4A8 /* ChargeWatchApp Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B7112D82BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppTests.swift */,
+			);
+			path = "ChargeWatchApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		1B7112E12BA165D8008DD4A8 /* ChargeWatchApp Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B7112E22BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITests.swift */,
+				1B7112E42BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ChargeWatchApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		1B7112FC2BA168B6008DD4A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B7112FF2BA168F1008DD4A8 /* Landmark.swift */,
+				1B7113052BA16922008DD4A8 /* ModelData.swift */,
+				1B7113072BA1693C008DD4A8 /* Hike.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B7112FD2BA168C2008DD4A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B71130E2BA17DFA008DD4A8 /* LandmarkListView.swift */,
+				1BD749412BA2DF7700770E81 /* LandmarkListRow.swift */,
+				1BD749432BA2E11700770E81 /* LandmarkDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B7112FE2BA168CC008DD4A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B7113012BA16912008DD4A8 /* hikeData.json */,
+				1B7113022BA16912008DD4A8 /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1BD749292BA29D2E00770E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7112BB2BA165D4008DD4A8 /* ChargeWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7112EC2BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp" */;
+			buildPhases = (
+				1B7112BA2BA165D4008DD4A8 /* Resources */,
+				1B7112EB2BA165D8008DD4A8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7112C52BA165D4008DD4A8 /* PBXTargetDependency */,
+			);
+			name = ChargeWatchApp;
+			productName = ChargeWatchApp;
+			productReference = 1B7112BC2BA165D4008DD4A8 /* ChargeWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1B7112C12BA165D4008DD4A8 /* ChargeWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7112E82BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp Watch App" */;
+			buildPhases = (
+				1B7112BE2BA165D4008DD4A8 /* Sources */,
+				1B7112BF2BA165D4008DD4A8 /* Frameworks */,
+				1B7112C02BA165D4008DD4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChargeWatchApp Watch App";
+			packageProductDependencies = (
+				1BD749302BA2A4FD00770E81 /* HandyJSON */,
+				1BD749332BA2A51400770E81 /* SDWebImageSwiftUI */,
+				1BD749362BA2A52700770E81 /* ActivityIndicatorView */,
+				1BD7493C2BA2B72200770E81 /* Alamofire */,
+			);
+			productName = "ChargeWatchApp Watch App";
+			productReference = 1B7112C22BA165D4008DD4A8 /* ChargeWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B7112D32BA165D8008DD4A8 /* ChargeWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7112EF2BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp Watch AppTests" */;
+			buildPhases = (
+				1B7112D02BA165D8008DD4A8 /* Sources */,
+				1B7112D12BA165D8008DD4A8 /* Frameworks */,
+				1B7112D22BA165D8008DD4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7112D62BA165D8008DD4A8 /* PBXTargetDependency */,
+			);
+			name = "ChargeWatchApp Watch AppTests";
+			productName = "ChargeWatchApp Watch AppTests";
+			productReference = 1B7112D42BA165D8008DD4A8 /* ChargeWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B7112DD2BA165D8008DD4A8 /* ChargeWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7112F22BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp Watch AppUITests" */;
+			buildPhases = (
+				1B7112DA2BA165D8008DD4A8 /* Sources */,
+				1B7112DB2BA165D8008DD4A8 /* Frameworks */,
+				1B7112DC2BA165D8008DD4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B7112E02BA165D8008DD4A8 /* PBXTargetDependency */,
+			);
+			name = "ChargeWatchApp Watch AppUITests";
+			productName = "ChargeWatchApp Watch AppUITests";
+			productReference = 1B7112DE2BA165D8008DD4A8 /* ChargeWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7112B62BA165D3008DD4A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1B7112BB2BA165D4008DD4A8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1B7112C12BA165D4008DD4A8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1B7112D32BA165D8008DD4A8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1B7112C12BA165D4008DD4A8;
+					};
+					1B7112DD2BA165D8008DD4A8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1B7112C12BA165D4008DD4A8;
+					};
+				};
+			};
+			buildConfigurationList = 1B7112B92BA165D3008DD4A8 /* Build configuration list for PBXProject "ChargeWatchApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B7112B52BA165D3008DD4A8;
+			packageReferences = (
+				1BD7492E2BA2A4EC00770E81 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1BD7492F2BA2A4FD00770E81 /* XCRemoteSwiftPackageReference "HandyJSON" */,
+				1BD749322BA2A51400770E81 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				1BD749352BA2A52700770E81 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+			);
+			productRefGroup = 1B7112BD2BA165D4008DD4A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7112BB2BA165D4008DD4A8 /* ChargeWatchApp */,
+				1B7112C12BA165D4008DD4A8 /* ChargeWatchApp Watch App */,
+				1B7112D32BA165D8008DD4A8 /* ChargeWatchApp Watch AppTests */,
+				1B7112DD2BA165D8008DD4A8 /* ChargeWatchApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7112BA2BA165D4008DD4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7112C02BA165D4008DD4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7112CF2BA165D7008DD4A8 /* Preview Assets.xcassets in Resources */,
+				1B7113042BA16912008DD4A8 /* landmarkData.json in Resources */,
+				1B7113032BA16912008DD4A8 /* hikeData.json in Resources */,
+				1B7112CC2BA165D7008DD4A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7112D22BA165D8008DD4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7112DC2BA165D8008DD4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7112BE2BA165D4008DD4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B71130A2BA16A83008DD4A8 /* NotificationController.swift in Sources */,
+				1B7113082BA1693C008DD4A8 /* Hike.swift in Sources */,
+				1BD749422BA2DF7700770E81 /* LandmarkListRow.swift in Sources */,
+				1B7113112BA193C6008DD4A8 /* ExtensionDelegate.swift in Sources */,
+				1B71130F2BA17DFA008DD4A8 /* LandmarkListView.swift in Sources */,
+				1B71130C2BA16AA3008DD4A8 /* NotificationView.swift in Sources */,
+				1B7112CA2BA165D4008DD4A8 /* ContentView.swift in Sources */,
+				1B7113062BA16922008DD4A8 /* ModelData.swift in Sources */,
+				1B7112C82BA165D4008DD4A8 /* ChargeWatchAppApp.swift in Sources */,
+				1B7113132BA19447008DD4A8 /* LocalNotifications.swift in Sources */,
+				1B7113002BA168F1008DD4A8 /* Landmark.swift in Sources */,
+				1BD749442BA2E11700770E81 /* LandmarkDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7112D02BA165D8008DD4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7112D92BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B7112DA2BA165D8008DD4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7112E52BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITestsLaunchTests.swift in Sources */,
+				1B7112E32BA165D8008DD4A8 /* ChargeWatchApp_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B7112C52BA165D4008DD4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7112C12BA165D4008DD4A8 /* ChargeWatchApp Watch App */;
+			targetProxy = 1B7112C42BA165D4008DD4A8 /* PBXContainerItemProxy */;
+		};
+		1B7112D62BA165D8008DD4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7112C12BA165D4008DD4A8 /* ChargeWatchApp Watch App */;
+			targetProxy = 1B7112D52BA165D8008DD4A8 /* PBXContainerItemProxy */;
+		};
+		1B7112E02BA165D8008DD4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B7112C12BA165D4008DD4A8 /* ChargeWatchApp Watch App */;
+			targetProxy = 1B7112DF2BA165D8008DD4A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B7112E62BA165D8008DD4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B7112E72BA165D8008DD4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1B7112E92BA165D8008DD4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChargeWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VD979N5W6T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChargeWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChargeWatchApp.ChargeWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		1B7112EA2BA165D8008DD4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChargeWatchApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VD979N5W6T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ChargeWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChargeWatchApp.ChargeWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		1B7112ED2BA165D8008DD4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N4A9Y6RQ;
+				INFOPLIST_KEY_CFBundleDisplayName = ChargeWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChargeWatchApp.ChargeWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1B7112EE2BA165D8008DD4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N4A9Y6RQ;
+				INFOPLIST_KEY_CFBundleDisplayName = ChargeWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ChargeWatchApp.ChargeWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B7112F02BA165D8008DD4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N4A9Y6RQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ChargeWatchApp.ChargeWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChargeWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		1B7112F12BA165D8008DD4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N4A9Y6RQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ChargeWatchApp.ChargeWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChargeWatchApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		1B7112F32BA165D8008DD4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N4A9Y6RQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ChargeWatchApp.ChargeWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ChargeWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		1B7112F42BA165D8008DD4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82N4A9Y6RQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.ChargeWatchApp.ChargeWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ChargeWatchApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7112B92BA165D3008DD4A8 /* Build configuration list for PBXProject "ChargeWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7112E62BA165D8008DD4A8 /* Debug */,
+				1B7112E72BA165D8008DD4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7112E82BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7112E92BA165D8008DD4A8 /* Debug */,
+				1B7112EA2BA165D8008DD4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7112EC2BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7112ED2BA165D8008DD4A8 /* Debug */,
+				1B7112EE2BA165D8008DD4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7112EF2BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7112F02BA165D8008DD4A8 /* Debug */,
+				1B7112F12BA165D8008DD4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7112F22BA165D8008DD4A8 /* Build configuration list for PBXNativeTarget "ChargeWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7112F32BA165D8008DD4A8 /* Debug */,
+				1B7112F42BA165D8008DD4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1BD7492E2BA2A4EC00770E81 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+		1BD7492F2BA2A4FD00770E81 /* XCRemoteSwiftPackageReference "HandyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alibaba/HandyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		1BD749322BA2A51400770E81 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		1BD749352BA2A52700770E81 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BD749302BA2A4FD00770E81 /* HandyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD7492F2BA2A4FD00770E81 /* XCRemoteSwiftPackageReference "HandyJSON" */;
+			productName = HandyJSON;
+		};
+		1BD749332BA2A51400770E81 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD749322BA2A51400770E81 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		1BD749362BA2A52700770E81 /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD749352BA2A52700770E81 /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
+		};
+		1BD7493C2BA2B72200770E81 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BD7492E2BA2A4EC00770E81 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1B7112B62BA165D3008DD4A8 /* Project object */;
+}
